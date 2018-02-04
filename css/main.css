@@ -1,0 +1,71 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFF
+
+}
+/* formatting the horizontal bar*/
+.hbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+.hbar > h2 {
+  color: white;
+  font-size: 45;
+
+}
+
+/* formatting the side navigation menu */
+.vbar{
+  height:100%;
+  width: 350px;
+  position: fixed;
+  padding-top: 105px;
+  left: 0;
+  background-color: #D6D5D5;
+  overflow-x: hidden;
+  padding-top: 105px;
+
+}
+.vbar > h2 , ul {
+  color: #111111;
+
+
+}
+.vbar > ul, img, a {
+  list-style-type: none;
+  line-height: 30px;
+  list-style-type: none;
+}
+.vbar > img {
+  padding-top: 10px;
+
+
+
+}
+.vbar > a{
+  color: white;
+}
+
+/* main-comtent formatting */
+.main-content {
+  padding-left: 365px;
+  padding-top:105px;
+}
+
+.main-content > ul {
+  color: black;
+
+}
+
+img{
+  width: 30px;
+  height: 30px;
+  line-height: 10px;
+
+}
